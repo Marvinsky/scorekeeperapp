@@ -9,14 +9,54 @@
 
     <RelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
+        <ImageView
+            android:id="@+id/background_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/soccer_field"
+            android:scaleType="fitXY"
+            android:alpha="0.4"
+            />
+
+        <LinearLayout
+            android:id="@+id/titleTable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            >
+
+            <TextView
+                android:id="@+id/leftTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/soccer.text.title"
+                android:textColor="@color/red_crimson"
+                android:fontFamily="sans-serif-medium"
+                />
+
+            <TextView
+                android:id="@+id/rightTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/soccer.text.datetime"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="16sp"
+                android:layout_marginLeft="10dp"
+                />
+        </LinearLayout>
+
+
         <LinearLayout
             android:id="@+id/tablePlayers"
+            android:layout_below="@id/titleTable"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -40,7 +80,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Universitario De Deportes"
+                    android:text="@string/soccer.text.team_a"
                     android:gravity="center_horizontal"
                     android:textSize="14sp"
                     android:fontFamily="sans-serif-condensed-medium"
@@ -114,7 +154,7 @@
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Goals"
+                    android:text="@string/soccer.btn.goals"
                     android:layout_margin="5dp"
                     android:onClick="addGoalForTeamA"
                     />
@@ -122,7 +162,7 @@
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Yellow Cards"
+                    android:text="@string/soccer.btn.yellow_card"
                     android:layout_margin="5dp"
                     android:onClick="addYelloCardForTeamA"
                     />
@@ -130,7 +170,7 @@
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Red Cards"
+                    android:text="@string/soccer.btn.red_card"
                     android:layout_margin="5dp"
                     android:onClick="addRedCardForTeamA"
                     />
@@ -138,7 +178,7 @@
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Fouls"
+                    android:text="@string/soccer.btn.fouls"
                     android:layout_margin="5dp"
                     android:onClick="addFoulsForTeamA"
                     />
@@ -146,7 +186,7 @@
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Offsides"
+                    android:text="@string/soccer.btn.offsides"
                     android:layout_margin="5dp"
                     android:onClick="addOffsidesForTeamA"
                     />
@@ -154,7 +194,7 @@
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Corners"
+                    android:text="@string/soccer.btn.corners"
                     android:layout_margin="5dp"
                     android:onClick="addCornersForTeamA"
                     />
@@ -162,13 +202,13 @@
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Posession"
+                    android:text="@string/soccer.btn.possesion"
                     android:layout_margin="5dp"
                     android:onClick="addPosessionForTeamA"
                     />
-
             </LinearLayout>
 
+            <View style="@style/Divider.Vertical"/>
 
             <LinearLayout
                 android:layout_weight="1"
@@ -188,7 +228,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Boca Juniors"
+                    android:text="@string/soccer.text.team_b"
                     android:gravity="center_horizontal"
                     android:textSize="14sp"
                     android:fontFamily="sans-serif-condensed-medium"
@@ -259,11 +299,10 @@
                     android:padding="4dp"
                     />
 
-
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Goals"
+                    android:text="@string/soccer.btn.goals"
                     android:layout_margin="5dp"
                     android:onClick="addGoalForTeamB"
                     />
@@ -271,7 +310,7 @@
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Yellow Cards"
+                    android:text="@string/soccer.btn.yellow_card"
                     android:layout_margin="5dp"
                     android:onClick="addYelloCardForTeamB"
                     />
@@ -279,7 +318,7 @@
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Red Cards"
+                    android:text="@string/soccer.btn.red_card"
                     android:layout_margin="5dp"
                     android:onClick="addRedCardForTeamB"
                     />
@@ -287,7 +326,7 @@
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Fouls"
+                    android:text="@string/soccer.btn.fouls"
                     android:layout_margin="5dp"
                     android:onClick="addFoulsForTeamB"
                     />
@@ -295,7 +334,7 @@
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Offsides"
+                    android:text="@string/soccer.btn.offsides"
                     android:layout_margin="5dp"
                     android:onClick="addOffsidesForTeamB"
                     />
@@ -303,7 +342,7 @@
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Corners"
+                    android:text="@string/soccer.btn.corners"
                     android:layout_margin="5dp"
                     android:onClick="addCornersForTeamB"
                     />
@@ -311,25 +350,21 @@
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Posession"
+                    android:text="@string/soccer.btn.possesion"
                     android:layout_margin="5dp"
                     android:onClick="addPosessionForTeamB"
                     />
-
-
             </LinearLayout>
         </LinearLayout>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:text="reset"
-            android:textAllCaps="true"
             android:layout_below="@id/tablePlayers"
             android:layout_centerHorizontal="true"
             android:onClick="resetPlayers"
-            />
+            android:text="@string/soccer.btn.reset"
+            android:textAllCaps="true" />
 
     </RelativeLayout>
 

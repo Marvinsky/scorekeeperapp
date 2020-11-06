@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Score Keeper App</string>
+    <string name="soccer.text.team_a">Universitario De Deportes</string>
+    <string name="soccer.text.team_b">Boca Juniors</string>
+    <string name="soccer.btn.goals">Goals</string>
+    <string name="soccer.btn.yellow_card">Yellow Cards</string>
+    <string name="soccer.btn.red_card">Red Cards</string>
+    <string name="soccer.btn.fouls">Fouls</string>
+    <string name="soccer.btn.offsides">Offsides</string>
+    <string name="soccer.btn.corners">Corners</string>
+    <string name="soccer.btn.possesion">Possesion</string>
+    <string name="soccer.btn.reset">Reset</string>
+    <string name="soccer.text.title">Copa Libertadores de America - </string>
+    <string name="soccer.text.datetime"> Tue, 11/10, 13:15</string>
+
 </resources>
