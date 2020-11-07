@@ -40,6 +40,7 @@
                 android:text="@string/soccer.text.title"
                 android:textColor="@color/red_crimson"
                 android:fontFamily="sans-serif-medium"
+                android:textSize="16sp"
                 />
 
             <TextView
@@ -82,7 +83,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/soccer.text.team_a"
                     android:gravity="center_horizontal"
-                    android:textSize="14sp"
+                    android:textSize="16sp"
                     android:fontFamily="sans-serif-condensed-medium"
                     android:padding="4dp"
                     />
@@ -92,6 +93,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="0"
+                    android:textSize="@dimen/dimen.btn"
                     android:gravity="center_horizontal"
                     android:padding="4dp"
                     />
@@ -101,6 +103,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="0"
+                    android:textSize="@dimen/dimen.btn"
                     android:gravity="center_horizontal"
                     android:padding="4dp"
                     />
@@ -110,6 +113,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="0"
+                    android:textSize="@dimen/dimen.btn"
                     android:gravity="center_horizontal"
                     android:padding="4dp"
                     />
@@ -119,6 +123,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="0"
+                    android:textSize="@dimen/dimen.btn"
                     android:gravity="center_horizontal"
                     android:padding="4dp"
                     />
@@ -128,6 +133,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="0"
+                    android:textSize="@dimen/dimen.btn"
                     android:gravity="center_horizontal"
                     android:padding="4dp"
                     />
@@ -138,6 +144,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="0"
+                    android:textSize="@dimen/dimen.btn"
                     android:gravity="center_horizontal"
                     android:padding="4dp"
                     />
@@ -147,6 +154,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="0"
+                    android:textSize="@dimen/dimen.btn"
                     android:gravity="center_horizontal"
                     android:padding="4dp"
                     />
@@ -230,7 +238,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/soccer.text.team_b"
                     android:gravity="center_horizontal"
-                    android:textSize="14sp"
+                    android:textSize="16sp"
                     android:fontFamily="sans-serif-condensed-medium"
                     android:padding="4dp"
                     />
@@ -240,6 +248,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="0"
+                    android:textSize="@dimen/dimen.btn"
                     android:gravity="center_horizontal"
                     android:padding="4dp"
                     />
@@ -249,6 +258,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="0"
+                    android:textSize="@dimen/dimen.btn"
                     android:gravity="center_horizontal"
                     android:padding="4dp"
                     />
@@ -258,6 +268,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="0"
+                    android:textSize="@dimen/dimen.btn"
                     android:gravity="center_horizontal"
                     android:padding="4dp"
                     />
@@ -267,6 +278,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="0"
+                    android:textSize="@dimen/dimen.btn"
                     android:gravity="center_horizontal"
                     android:padding="4dp"
                     />
@@ -276,6 +288,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="0"
+                    android:textSize="@dimen/dimen.btn"
                     android:gravity="center_horizontal"
                     android:padding="4dp"
                     />
@@ -286,6 +299,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="0"
+                    android:textSize="@dimen/dimen.btn"
                     android:gravity="center_horizontal"
                     android:padding="4dp"
                     />
@@ -295,6 +309,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="0"
+                    android:textSize="@dimen/dimen.btn"
                     android:gravity="center_horizontal"
                     android:padding="4dp"
                     />
